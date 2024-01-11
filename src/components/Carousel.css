@@ -1,1 +1,53 @@
 /* write down the css for Carousel in this file */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(52, 52, 52);
+    opacity: 0.8;
+    position: relative;
+    height: 70vh;
+    z-index: 1;
+}
+
+img{
+    height: 70vh;
+    width: 30vw;
+}
+
+.one{
+    left: -38px;
+}
+
+.two{
+    left: 38px;
+}
+
+
+h2{
+    position: relative;
+    top: -70%;
+    margin: auto;
+    z-index: 1;
+    background-color: white;
+    padding: 5px 10px;
+    width: fit-content;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+h5{
+    position: relative;
+    top: -40%;
+    margin: auto;
+    z-index: 1;
+    background-color: white;
+    padding: 5px 10px;
+    width: fit-content;
+    text-align: center;
+    opacity: 0.7;
+}
